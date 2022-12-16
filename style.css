@@ -1,14 +1,14 @@
 .topindex{
-    display: block;
+    /* display: block; */
     width: auto;
-    height: 10vh;
+    height: 6vh;
     background: linear-gradient(to left,rgb(16, 147, 255), rgb(1, 15, 141));
     padding: 0px;
     margin: 0px;
     position: relative;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
   
      
 }
@@ -41,6 +41,7 @@ color: aliceblue;
      /* padding-bottom: 0vh; */
      position: relative;
    color: aliceblue;
+   
    /* text-shadow: 9px 7px 20px #000; */
 }
 .insideindex1:hover{
@@ -48,13 +49,13 @@ color:rgb(1,345,67);
    
 }
 .insideindex1{
-    display: inline-block;
-    font-size: 8px;
-    align-items: center;
-    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    color: aliceblue;
     position: relative;
+    margin-left: 4vh;
    
-    /* top:4px; */
+    top:-15px;
 }
 .menu{
      
@@ -191,13 +192,14 @@ justify-content: end;
      height: auto;
      width: auto;
      top:3px;
+     size: 20px;
     /* display: inline-block; */
     position: relative;
      align-items: center;
    /* color: aliceblue; */
 }
 .search{
-    position: absolute;
+    /* position: absolute; */
     /* top:2vh; */
    
     color: rgb(1,345,67)
@@ -214,8 +216,10 @@ justify-content: end;
     left: 30px;
 }
 .li-color{
+   
     color: aliceblue;
 }
+
 .search:hover{
     color:blue
 }
@@ -244,7 +248,10 @@ justify-content: end;
 }
 .swidonimg{
     margin-top: 15px;
-    height: 200px ;
+    left: 20px;
+    position: relative;
+    justify-content: center;
+    height: 300px ;
     width: auto;
    display: inline-block;;
    box-shadow: 2px 3px 2px;
@@ -326,7 +333,7 @@ top: -210px;
 }
 .col-7{
     position: relative;
-  left: 10px;
+  /* left: 10px; */
 }
 
 .bottom-index{
