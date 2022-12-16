@@ -1,5 +1,5 @@
 .topindex{
-    /* display: flex; */
+    display: block;
     width: auto;
     height: 10vh;
     background: linear-gradient(to left,rgb(16, 147, 255), rgb(1, 15, 141));
@@ -8,9 +8,8 @@
     position: relative;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: end;
+  
      
 }
 .topindex h3{
@@ -39,6 +38,7 @@ color: aliceblue;
     /* justify-content: start; */
      margin-left: 1vh;
      padding-left: 2vh;
+     /* padding-bottom: 0vh; */
      position: relative;
    color: aliceblue;
    /* text-shadow: 9px 7px 20px #000; */
@@ -49,10 +49,11 @@ color:rgb(1,345,67);
 }
 .insideindex1{
     display: inline-block;
-    font-size: 2vh;
+    font-size: 8px;
     align-items: center;
     justify-content: center;
     position: relative;
+   
     /* top:4px; */
 }
 .menu{
@@ -158,22 +159,29 @@ color:rgb(1,345,67);
 }
 .menu-anchor{
     display: inline-block;
+    position: absolute;
 }
 
 .bar{
     padding-left: 10px;
-     /* height: 20px;
-     width: 150px; */
+     height: 20px;
+     width: 150px;
      padding-bottom: 2px;
     font-size: 10px;
     text-align: top ;
      
-    
-    margin-left:30vh;
+justify-content: end;
+    /* margin-left:80vh; */
     background: transparent;
     border-radius: 2px;
     border-color:rgb(1,345,67);
     background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
+}
+.searchbar{
+    /* display: flex; */
+    /* display:inline-block; */
+    justify-content: end;
+   align-items: end;
 }
 .symbol{
     display: inline;
@@ -190,10 +198,23 @@ color:rgb(1,345,67);
 }
 .search{
     position: absolute;
-    top:2vh;
+    /* top:2vh; */
    
     color: rgb(1,345,67)
 
+}
+.col-7 h4 {
+    color: aliceblue;
+
+}
+.swidonimg1{
+    height: 110px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.li-color{
+    color: aliceblue;
 }
 .search:hover{
     color:blue
@@ -201,7 +222,7 @@ color:rgb(1,345,67);
 .artical{
     overflow: hidden;
     width: none;
-    height: 230px;
+    height: none;
     background-image:linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255));
 }
 .atrical-box{
@@ -223,12 +244,12 @@ color:rgb(1,345,67);
 }
 .swidonimg{
     margin-top: 15px;
-    height: 200px;
+    height: 200px ;
     width: auto;
    display: inline-block;;
    box-shadow: 2px 3px 2px;
 }
-.atrical-box h4{
+/* .atrical-box h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
 position: relative;
@@ -238,7 +259,7 @@ left:0px;
 
 text-align: end;
 margin-right: 10px;
-}
+} */
 .artical div li{
     
     text-align: space end;
@@ -262,24 +283,28 @@ top: -210px;
     height: 230px;
     position: relative;
     margin-left: 280px;
-    top:-210px;
+    /* top:-210px; */
     justify-content: end;
 /* background-image: linear-gradient(to left, rgb(1, 15, 141),rgb(16, 147, 255)); */
 }
 .historyimg{
     width: auto;
-    height: 200px;
+    /* height: 200px; */
     position: relative;
     /* top: 100px; */
 }
-.row{
+.content2{
     display: flex;
     justify-content: left;
-   
+   align-items: flex-start;
    position: relative;
-    /* border: 5px solid #000; */
+     top:10px;
     height: 60px; 
-    /* overflow: scroll; */
+  
+}
+.align{
+    padding: 5px;
+    align-items: center;
 }
 .historyimg1{
     height: 90px;
@@ -299,10 +324,11 @@ top: -210px;
 .col-4{
     opacity: 80%;
 }
-.col-8{
+.col-7{
     position: relative;
-   left: -20px;
+  left: 10px;
 }
+
 .bottom-index{
     
      display: flex;
